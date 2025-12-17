@@ -72,7 +72,7 @@ bash train_vicuna.sh
 bash train_llama.sh
 ```
 
-## General task performance
+## General Task Performance
 * One we have obtained the trained model weights we can evaluate the various performance metrics/benchmarks.
 * First, we need to change the current directory to utils with the following command
 ```
