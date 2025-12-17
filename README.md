@@ -1,4 +1,17 @@
-## GC-DPO
+# Goal-Conditioned DPO (GC-DPO)
+
+Official experimental repository for the NAACL 2025 paper:
+
+> **Goal-Conditioned DPO: Prioritizing Safety in Misaligned Instructions**  
+> Joo Bon Maeng*, Seongmin Lee*, Seokin Seo, Kee-Eung Kim  
+> NAACL 2025 (Long Papers)
+
+This repository provides code to reproduce the experiments in the paper, including
+goal-conditioned data construction, GC-DPO training, and evaluation against jailbreak attacks.
+
+---
+
+
 
 ## Env
 
