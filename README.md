@@ -43,6 +43,7 @@ is reversed depending on the goal, enabling the model to learn prompt hierarchy.
 * We use python version 3.9.19 for all our experiments
 conda env create -n gcdpo -f environment.yaml
 conda activate gcdpo
+cd gcdpo
 
 ### API
 * As the models we used are OpenAI models, you should configure your own OPENAI API KEY.
@@ -59,7 +60,7 @@ export OPENAI_API_KEY=[YOUR API KEY]
 
    ( The results are already provided in the /data directory  
 
-    Your_repository/data/advbench_vicuna_7b_dpo_data_aim_processed.json )
+    data/advbench_vicuna_7b_dpo_data_aim_processed.json )
 ```
 bash data_generation.sh
 ```
