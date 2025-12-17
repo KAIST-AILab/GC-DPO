@@ -9,9 +9,8 @@ Official experimental repository for the NAACL 2025 paper:
 This repository provides code to reproduce the experiments in the paper, including
 goal-conditioned data construction, GC-DPO training, and evaluation against jailbreak attacks.
 
----
 
-## Overview
+### Overview
 
 Large Language Models (LLMs) are vulnerable to **jailbreak attacks** that exploit
 misalignment between system prompts (safety goals) and user prompts.
@@ -25,6 +24,12 @@ Key ideas:
 
 GC-DPO significantly reduces jailbreak attack success rates while preserving
 general task performance.
+
+
+### Method Summary
+
+GC-DPO extends Direct Preference Optimization (DPO) by conditioning preference
+ordering on a goal variable defined in the system prompt.
 
 
 
