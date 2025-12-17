@@ -62,3 +62,17 @@ bash mt_bench_eval.sh
 * You can check the results in the [TASK_NAME]_results directories
 
 **Note that all model weights and datasets used for training and evaluation are included in the provided files**
+
+
+
+---
+
+## Citation
+
+```bibtex
+@inproceedings{maeng2025gcdpo,
+  title={Goal-Conditioned DPO: Prioritizing Safety in Misaligned Instructions},
+  author={Maeng, Joo Bon and Lee, Seongmin and Seo, Seokin and Kim, Kee-Eung},
+  booktitle={Proceedings of NAACL 2025},
+  year={2025}
+}
