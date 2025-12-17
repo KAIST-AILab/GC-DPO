@@ -39,11 +39,10 @@ is reversed depending on the goal, enabling the model to learn prompt hierarchy.
 
 ## Env
 
-### Python Installation
+### Environment Setting
 * We use python version 3.9.19 for all our experiments
-```
-pip install -r requirements.txt
-```
+conda env create -n gcdpo -f environment.yaml
+conda activate gcdpo
 
 ### API
 * As the models we used are OpenAI models, you should configure your own OPENAI API KEY.
