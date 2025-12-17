@@ -64,7 +64,6 @@ bash mt_bench_eval.sh
 **Note that all model weights and datasets used for training and evaluation are included in the provided files**
 
 
-
 ## Citation
 
 ```bibtex
