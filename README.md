@@ -65,8 +65,6 @@ bash mt_bench_eval.sh
 
 
 
----
-
 ## Citation
 
 ```bibtex
