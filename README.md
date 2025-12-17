@@ -53,7 +53,7 @@ export OPENAI_API_KEY=[YOUR API KEY]
 ```
 
 **Disclaimer: Due to the nature of this research the following sections will contain potentially harmful contents**
-## Data generation
+## Data Generation
 
 * Inference the data with None and AIM on advbench dataset  
 * Evaluate the generated data with the Judge model
