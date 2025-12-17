@@ -104,9 +104,9 @@ bash mt_bench_eval.sh
 ## Citation
 
 ```bibtex
-@inproceedings{maeng2025gcdpo,
-  title={Goal-Conditioned DPO: Prioritizing Safety in Misaligned Instructions},
+@inproceedings{maeng-etal-2025-goal,
+  title={Goal-Conditioned {DPO}: Prioritizing Safety in Misaligned Instructions},
   author={Maeng, Joo Bon and Lee, Seongmin and Seo, Seokin and Kim, Kee-Eung},
-  booktitle={Proceedings of NAACL 2025},
+  booktitle={Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)},
   year={2025}
 }
