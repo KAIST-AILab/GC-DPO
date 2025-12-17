@@ -11,6 +11,22 @@ goal-conditioned data construction, GC-DPO training, and evaluation against jail
 
 ---
 
+## Overview
+
+Large Language Models (LLMs) are vulnerable to **jailbreak attacks** that exploit
+misalignment between system prompts (safety goals) and user prompts.
+GC-DPO addresses this problem by explicitly learning **instruction hierarchy**
+during training.
+
+Key ideas:
+- Decompose input into **system prompt (goal)** and **user prompt**
+- Condition preference optimization on the system-level goal
+- Learn to prioritize safety goals over misaligned user instructions
+
+GC-DPO significantly reduces jailbreak attack success rates while preserving
+general task performance.
+
+
 
 
 ## Env
