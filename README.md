@@ -4,6 +4,7 @@ Official experimental repository for the NAACL 2025 paper:
 > **Goal-Conditioned DPO: Prioritizing Safety in Misaligned Instructions**  
 > Joo Bon Maeng*, Seongmin Lee*, Seokin Seo, Kee-Eung Kim  
 > NAACL 2025 (Long Papers)
+
 This repository provides code to reproduce the experiments in the paper, including
 goal-conditioned data construction, GC-DPO training, and evaluation against jailbreak attacks.
 
@@ -29,6 +30,7 @@ ordering on a goal variable defined in the system prompt.
 ### Goals
 - `gGOOD`: prioritize safety and ethical constraints
 - `gBAD`: prioritize user instruction (used only during training)
+
 For the same user prompt `u`, the preference between safe and harmful responses
 is reversed depending on the goal, enabling the model to learn prompt hierarchy.
 
