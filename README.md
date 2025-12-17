@@ -45,7 +45,7 @@ is reversed depending on the goal, enabling the model to learn prompt hierarchy.
 pip install -r requirements.txt
 ```
 
-## API
+### API
 * As the models we used are OpenAI models, you should configure your own OPENAI API KEY.
 * You must set your own OPENAI API KEY in the base.py and export it as your environmental variable using 
 ```
@@ -53,7 +53,7 @@ export OPENAI_API_KEY=[YOUR API KEY]
 ```
 
 **Disclaimer: Due to the nature of this research the following sections will contain potentially harmful contents**
-## Data geneartion
+## Data generation
 
 * Inference the data with None and AIM on advbench dataset  
 * Evaluate the generated data with the Judge model
